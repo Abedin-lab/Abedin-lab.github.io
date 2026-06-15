@@ -436,6 +436,16 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        /* Study Icon */
+        .card-image {
+            width: 130px;
+            height: 130px;
+            object-fit: contain;
+            margin: 0 auto 1.5rem;
+            display: block;
+            filter: drop-shadow(0 8px 16px rgba(0,0,0,0.25));
+            animation: floatIcon 6s ease-in-out infinite;
+        }
 
         @keyframes floatIcon {
             0%, 100% { transform: translateY(0); }
@@ -723,7 +733,7 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fa-solid fa-phone"></i>
-                    <a href="tel:+821074522517">+82 1093915855</a>
+                    <a href="tel:+821093915855">+82 1093915855</a>
                 </div>
                 <div class="contact-item">
                     <i class="fa-solid fa-envelope"></i>
@@ -905,7 +915,7 @@
     <main id="korean-section" class="main-container" style="display: none;">
         <div class="card">
             <h1>🇰🇷 Daily Korean</h1>
-        
+            <img src="assets/study_icon.png" alt="Study Korean" class="card-image">
             <div class="word-section" id="wordSection">
                 <div class="word" id="word"></div>
                 <div class="pronunciation" id="pronunciation"></div>
